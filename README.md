@@ -33,7 +33,7 @@ python3 scripts/validate.py   # optional; needs `pip install pymupdf`
 
 The workflow in `.github/workflows/deploy-pages.yml` builds the site and deploys `dist/` on every push to `main`.
 
-1. Push this project to the repository's `main` branch.
+1. Push this project to the `main` branch of https://github.com/aqibshafiq89-bot/aqib-portfolio.
 2. In **Settings → Pages → Build and deployment**, set **Source** to **GitHub Actions**.
 3. The workflow runs automatically; the site URL appears in the Actions run and in Settings → Pages.
 

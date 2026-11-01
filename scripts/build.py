@@ -62,13 +62,14 @@ def ext(href, label, cls='text-link'):
 
 # ---------------------------------------------------------------- navigation
 nav = ''.join(f'<a href="#{i}">{label}</a>' for i, label in [
-    ('about', 'About'), ('publications', 'Publications'), ('projects', 'Projects'),
+    ('about', 'About'), ('research', 'Research'), ('publications', 'Publications'), ('projects', 'Projects'),
     ('experience', 'Experience'), ('education', 'Education'), ('contact', 'Contact')])
 
 # ------------------------------------------------------------------ research
 research_html = ''.join(
-    f'<li class="interest">{icon(r["icon"])}<div><h3>{esc(r["title"])}</h3><p>{esc(r["text"])}</p></div></li>'
-    for r in profile['research'])
+    f'<li class="interest"><div class="interest-top"><span class="interest-no">{n + 1:02d}</span>{icon(r["icon"])}</div>'
+    f'<h3>{esc(r["title"])}</h3><p>{esc(r["text"])}</p>{tags(r["tags"])}</li>'
+    for n, r in enumerate(profile['research']))
 
 # -------------------------------------------------------------- publications
 types = Counter(p['type'] for p in papers)
@@ -105,19 +106,20 @@ for n, p in sorted(enumerate(papers), key=by_recency):
     pubs += (
         f'<li class="publication" data-year="{p["year"] or "undated"}" data-type="{p["type"]}" '
         f'data-topic="{esc(p["topic"])}" data-index="{n}">'
-        f'<div class="pub-badges"><span class="badge badge-{p["type"].lower()}">{p["type"]}</span>'
-        f'<span class="pub-topic">{esc(p["topic"])}</span></div>'
-        f'<h3>{esc(p["title"])}</h3>'
+        f'<div class="pub-year">{p["year"] or "—"}<span class="badge badge-{p["type"].lower()}">{p["type"]}</span></div>'
+        f'<div class="pub-main"><h3>{esc(p["title"])}</h3>'
         f'<p class="authors">{authors}</p>'
-        f'<p class="venue">{", ".join(meta)}</p>'
+        f'<p class="venue">{", ".join(meta[:-1] if p["year"] else meta)}<span class="pub-topic">{esc(p["topic"])}</span></p></div>'
         f'<div class="pub-links">{"".join(links)}</div></li>')
 
 # ------------------------------------------------------------------ projects
 project_cards = []
 for n, p in enumerate(projects):
     asset = 'hero' if p['kind'] == 'energy' else p['kind']
-    project_cards.append(f'''<article class="project-card">
- <div class="project-media"><img src="assets/renders/{asset}-960.webp" srcset="assets/renders/{asset}-640.webp 640w, assets/renders/{asset}-960.webp 960w" sizes="(max-width: 720px) 100vw, (max-width: 1100px) 50vw, 33vw" alt="Illustrative rendering for {esc(p['title'])}" width="1536" height="1024" loading="lazy"></div>
+    cls = 'project-card featured' if n == 0 else 'project-card'
+    sizes = '(max-width: 900px) 100vw, 55vw' if n == 0 else '(max-width: 900px) 100vw, 22vw'
+    project_cards.append(f'''<article class="{cls}">
+ <div class="project-media"><img src="assets/renders/{asset}-960.webp" srcset="assets/renders/{asset}-640.webp 640w, assets/renders/{asset}-960.webp 960w, assets/renders/{asset}-1440.webp 1440w" sizes="{sizes}" alt="Illustrative rendering for {esc(p['title'])}" width="1536" height="1024" loading="lazy"><span class="project-no">{n + 1:02d}</span></div>
  <div class="project-body"><p class="kicker">{esc(p['category'])}</p><h3>{esc(p['title'])}</h3><p>{esc(p['description'])}</p>{tags(p['technologies'])}
  <button class="text-link project-open" type="button" data-project="{p['id']}">Project details {icon('arrow')}</button>
  <noscript><p><strong>Problem:</strong> {esc(p['problem'])}</p><p><strong>Approach:</strong> {esc(p['solution'])}</p><p><strong>Role:</strong> {esc(p['role'])}</p></noscript></div>

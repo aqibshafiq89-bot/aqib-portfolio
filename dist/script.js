@@ -43,7 +43,7 @@ if ('IntersectionObserver' in window) {
 /* Gentle reveal for below-the-fold content */
 const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
 if ('IntersectionObserver' in window && !reduced) {
-  const targets = document.querySelectorAll('.section-head, .about-copy, .interest, .project-card, .role, .degree, .skills > div, .outreach-grid > *, .cert-list li, .awards, .contact-list');
+  const targets = document.querySelectorAll('.section-head, .about-copy, .aff-grid li, .interest, .project-card, .role, .degree, .skills > div, .outreach-grid > *, .cert-list li, .awards, .contact-list');
   const io = new IntersectionObserver(entries => {
     entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('in'); io.unobserve(entry.target); } });
   }, { rootMargin: '0px 0px -40px 0px', threshold: 0.05 });

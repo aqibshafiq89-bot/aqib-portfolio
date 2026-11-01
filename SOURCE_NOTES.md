@@ -61,3 +61,7 @@ The QA browser's WebGL implementation is disabled. Static images, load-failure f
 ## Professional redesign — 2 November 2026
 
 Rebuilt the page with a lighter academic layout: portrait-led hero, publications placed before projects, and a single "illustrative renderings" note in place of the per-image disclaimers. Removed the optional Three.js viewer and its vendored library. Fonts are now self-hosted. Profile data (research interests, experience, certifications) moved from `scripts/build.py` to `content/profile.json`. Project descriptions were reworded in the first person without adding any new claims; the internal "supporting documentation to add" notes are no longer shown on the public page.
+
+## Second redesign — 2 November 2026
+
+At the owner's request the design now follows the structure of a sister academic site (portrait hero, affiliations strip, numbered research areas, editorial publication list) with its own deep-teal and copper colour scheme and a different layout. The UAJK seal in the affiliations strip is the university's logo.
