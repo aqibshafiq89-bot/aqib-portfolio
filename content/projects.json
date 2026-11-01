@@ -1,0 +1,129 @@
+[
+ {
+  "id": "ev-thesis",
+  "title": "IoT- and Robotics-Enabled Grid-Tied Renewable-Energy-Based EV Charging Station",
+  "shortTitle": "Intelligent energy. Connected mobility.",
+  "category": "MS THESIS · 2020–2022",
+  "kind": "energy",
+  "description": "Bringing renewable generation, electric mobility and connected monitoring into a single research direction.",
+  "problem": "Integrating renewable generation with grid-connected EV charging requires coordinated design, monitoring and energy management.",
+  "solution": "Designed and optimised an IoT- and robotics-enabled, grid-tied, renewables-based EV charging station as my MS thesis project.",
+  "role": "MS researcher, Department of Electrical Engineering, University of Azad Jammu and Kashmir.",
+  "technologies": [
+   "Renewable energy",
+   "EV charging",
+   "IoT",
+   "Robotics"
+  ],
+  "status": "Completed in 2022 as part of the MS degree.",
+  "pending": "To complete: thesis PDF, actual system architecture, component list, implementation details and validated results.",
+  "link": "https://doi.org/10.3389/fenrg.2023.1086793",
+  "linkLabel": "Related published research",
+  "displayTitle": "Renewable energy. Intelligent charging.",
+  "image": "assets/renders/hero-1440.webp",
+  "visualNote": "AI-generated concept render. Not a photograph, wiring guide or verified implementation of this project."
+ },
+ {
+  "id": "campus-solar",
+  "title": "Feasibility Study and Deployment of Solar Photovoltaic System at UAJK",
+  "category": "RESEARCH & FUNDING PROPOSAL",
+  "kind": "solar",
+  "description": "Campus solar PV feasibility, energy economics and a proposal for photovoltaic deployment at UAJK.",
+  "problem": "Understanding the suitability and economics of solar PV for university energy needs.",
+  "solution": "Prepared a feasibility study and a funding proposal to the Higher Education Commission (HEC) for solar PV deployment at UAJK. The analysis led to a related IEEE Access publication.",
+  "role": "Research Engineer (June 2020 – September 2021); co-author of the related 2022 journal article.",
+  "technologies": [
+   "Solar PV",
+   "Energy economics",
+   "Feasibility analysis"
+  ],
+  "status": "Funding proposal submitted; related journal article published in IEEE Access (2022).",
+  "pending": "To complete: individual contribution breakdown, proposal document and any verified deployment photographs or results.",
+  "link": "https://doi.org/10.1109/ACCESS.2022.3140723",
+  "linkLabel": "Read the related paper",
+  "displayTitle": "A solar future for the university campus.",
+  "image": "assets/renders/solar-1440.webp",
+  "visualNote": "AI-generated concept render. Not a photograph, wiring guide or verified implementation of this project."
+ },
+ {
+  "id": "solar-charging",
+  "title": "Solar PV-Based Slow & Fast EV Charging",
+  "category": "JOINT BS PROJECT SUPERVISION",
+  "kind": "charging",
+  "description": "Guiding undergraduate engineering work on solar-powered charging systems for electric vehicles.",
+  "problem": "Developing renewable-energy-based charging solutions for different EV charging needs.",
+  "solution": "Design and development of a solar PV-based EV charging station that supports both slow and fast charging.",
+  "role": "Joint supervisor of an undergraduate thesis project.",
+  "technologies": [
+   "Solar PV",
+   "Slow & fast charging",
+   "System design"
+  ],
+  "status": "Undergraduate thesis project, completed under joint supervision.",
+  "pending": "To complete: project dates, student-approved documentation, component specifications and measured results.",
+  "displayTitle": "Connecting solar generation to electric mobility.",
+  "image": "assets/renders/charging-1440.webp",
+  "visualNote": "AI-generated concept render. Not a photograph, wiring guide or verified implementation of this project."
+ },
+ {
+  "id": "wireless-charging",
+  "title": "Wireless Power Transfer for Electric Vehicles",
+  "category": "PROTOTYPE & JOINT SUPERVISION",
+  "kind": "wireless",
+  "description": "Inductive power transfer and connected monitoring for static wireless EV charging.",
+  "problem": "Investigating a cable-free approach to transferring energy to a stationary electric vehicle.",
+  "solution": "Built a static wireless EV charging prototype with IoT-based monitoring, and jointly supervised an undergraduate project on inductive power transfer.",
+  "role": "Hardware prototyping and joint supervision of an undergraduate thesis.",
+  "technologies": [
+   "Inductive transfer",
+   "IoT monitoring",
+   "Hardware prototype"
+  ],
+  "status": "Laboratory prototype and supervised undergraduate project.",
+  "pending": "To complete: circuit diagram, coil design, component list, test conditions and efficiency measurements.",
+  "displayTitle": "Power transfer. Without the plug.",
+  "image": "assets/renders/wireless-1440.webp",
+  "visualNote": "AI-generated concept render. Not a photograph, wiring guide or verified implementation of this project."
+ },
+ {
+  "id": "ecg",
+  "title": "Remote ECG Monitoring & Machine Learning",
+  "category": "BS THESIS & CARDIAC CARE STARTUP",
+  "kind": "ecg",
+  "description": "Connecting embedded healthcare hardware with machine learning for remote cardiac monitoring.",
+  "problem": "Supporting remote monitoring and analysis of cardiac patient ECG signals.",
+  "solution": "Developed an ECG device for remote monitoring and machine-learning-based disease prediction as my BS thesis, then continued ECG patient-monitoring prototyping through the Cardiac Care startup.",
+  "role": "BS thesis researcher; Team Leader of Cardiac Care at The Catalyst GIK Incubator, 2018–2019.",
+  "technologies": [
+   "ECG monitoring",
+   "Embedded systems",
+   "Machine learning"
+  ],
+  "status": "Academic and startup prototype; not a clinically certified device.",
+  "pending": "To complete: circuit and sensor specifications, dataset, model details and evaluation results.",
+  "displayTitle": "Connected sensing for cardiac care.",
+  "image": "assets/renders/ecg-1440.webp",
+  "visualNote": "AI-generated concept render. Not a photograph, wiring guide or verified implementation of this project."
+ },
+ {
+  "id": "embedded",
+  "title": "Embedded Systems & IoT Prototypes",
+  "category": "HARDWARE DEVELOPMENT & EDUCATION",
+  "kind": "embedded",
+  "description": "Practical connected systems spanning irrigation, energy monitoring, robotics and automation.",
+  "problem": "Translating sensing, control and connectivity into practical engineering prototypes and learning tools.",
+  "solution": "Prototypes include smart solar irrigation, substation monitoring, solar PV and battery monitoring, line-following and obstacle-avoidance robots, and smart waste and parking systems.",
+  "role": "Hardware prototyping, training-kit development, curriculum design and technical mentorship.",
+  "technologies": [
+   "Sensor interfacing",
+   "Microcontrollers",
+   "Robotics",
+   "IoT"
+  ],
+  "status": "Prototypes developed for research, training and student projects.",
+  "pending": "To complete: individual project photographs, verified board and sensor lists, code repositories and demonstrations. General platform skills are listed separately from project hardware.",
+  "displayTitle": "From embedded hardware to connected systems.",
+  "image": "assets/renders/embedded-1440.webp",
+  "visualNote": "AI-generated concept render. Not a photograph, wiring guide or verified implementation of this project."
+ }
+]

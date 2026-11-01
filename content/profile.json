@@ -1,0 +1,128 @@
+{
+ "research": [
+  {
+   "icon": "solar",
+   "title": "Renewable energy & solar PV",
+   "text": "Exploring photovoltaic systems, renewable integration and the practical design of clean-energy solutions.",
+   "tags": [
+    "Solar PV",
+    "Distributed energy"
+   ]
+  },
+  {
+   "icon": "grid",
+   "title": "Smart grids & power systems",
+   "text": "Investigating energy management, power-system modelling and coordination in renewable-rich networks.",
+   "tags": [
+    "Smart grids",
+    "Energy management"
+   ]
+  },
+  {
+   "icon": "ev",
+   "title": "EVs & intelligent charging",
+   "text": "Studying the connection between electric mobility, charging schedules and renewable-powered infrastructure.",
+   "tags": [
+    "EV charging",
+    "Grid integration"
+   ]
+  },
+  {
+   "icon": "chip",
+   "title": "Robotics, IoT & embedded systems",
+   "text": "Connecting sensing, hardware and intelligent monitoring in practical engineering and educational systems.",
+   "tags": [
+    "Embedded control",
+    "Connected systems"
+   ]
+  },
+  {
+   "icon": "wave",
+   "title": "AI-enabled monitoring & control",
+   "text": "Exploring prediction, coordination and data-informed control for energy and engineering applications.",
+   "tags": [
+    "Machine learning",
+    "Intelligent control"
+   ]
+  },
+  {
+   "icon": "chart",
+   "title": "Energy economics & sustainability",
+   "text": "Considering technical feasibility alongside energy cost, environmental impact and long-term system value.",
+   "tags": [
+    "Techno-economics",
+    "Sustainability"
+   ]
+  }
+ ],
+ "experience": [
+  {
+   "dates": "2021 — 2023",
+   "role": "Member, Industry Advisory Board",
+   "org": "Electrical Engineering Department, UAJK",
+   "text": "Served on the department’s Industry Advisory Board, connecting engineering education with professional perspectives."
+  },
+  {
+   "dates": "2019 — 2023",
+   "role": "Robotics STEM Education Trainer",
+   "org": "NEP-NIC · Punjab IT Board",
+   "text": "Trained 4,000+ students across 30 schools. Designed robotics and IoT hardware kits, coding modules and hands-on STEM curricula."
+  },
+  {
+   "dates": "2019 — 2023",
+   "role": "Hardware Design Workshop Trainer",
+   "org": "Technical workshops",
+   "text": "Led practical engineering workshops, developed specialised training kits and functional prototypes, and facilitated innovation and entrepreneurship training."
+  },
+  {
+   "dates": "JUN 2020 — SEP 2021",
+   "role": "Research Engineer",
+   "org": "Muzaffarabad, Pakistan",
+   "text": "Prepared funding submissions covering university solar PV, a robotics and automation lab, net metering and IoT-based smart irrigation."
+  },
+  {
+   "dates": "2018 — 2019",
+   "role": "Incubatee · Team Leader, Cardiac Care",
+   "org": "The Catalyst GIK Incubator · Ghulam Ishaq Khan Institute",
+   "text": "Led a healthcare technology startup through a one-year incubation programme, developing remote ECG monitoring with embedded systems and machine learning."
+  },
+  {
+   "dates": "AUG — SEP 2017",
+   "role": "Internee Electrical Engineer",
+   "org": "Pakistan Engineering Services",
+   "text": "Supported engineering activities and gained exposure to technical operations and professional engineering practice."
+  },
+  {
+   "dates": "JUN — JUL 2017",
+   "role": "Internee Electrical Engineer",
+   "org": "Special Communication Organization",
+   "text": "Gained exposure to telecommunications infrastructure, electrical systems, maintenance and engineering workflows."
+  }
+ ],
+ "certifications": [
+  {
+   "title": "One Million AI Prompters",
+   "detail": "UAE · Certification"
+  },
+  {
+   "title": "Professional Development (CPD)",
+   "detail": "Pakistan Engineering Council · Technical workshops"
+  },
+  {
+   "title": "Technology Startup Incubation",
+   "detail": "The Catalyst, GIK Institute · Team Lead"
+  },
+  {
+   "title": "Industry Advisory Board",
+   "detail": "Electrical Engineering Department, UAJK"
+  },
+  {
+   "title": "STEM Robotics Trainer",
+   "detail": "Certification records programmes across 40 schools"
+  },
+  {
+   "title": "Engineering IoT & Robotics Training",
+   "detail": "Graduate-level technical workshops"
+  }
+ ]
+}
